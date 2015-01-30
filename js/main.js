@@ -1,4 +1,7 @@
-var iceCream = ["chocolate marshmellow", "strawberry", "blueberry"];
-var fourth = "peach";
+// Howdy
+function howdy(){
 
-console.log(iceCream, fourth);
+console.log("Kat Betz says greetings earthling!");
+};
+
+howdy();
