@@ -1,4 +1,4 @@
 var iceCream = ["chocolate marshmellow", "strawberry", "blueberry"];
-var fourth = "peach";
+iceCream.push( "peach" );
 
 console.log(iceCream, fourth);
