@@ -31,8 +31,8 @@ function inception(callback, value){
     callback(value);
 };
 
-function movie(){
-    console.log("Buffy the Vampire Slayer is a fantastic movie");
+function movie( message ) {
+    console.log( message );
 }
 
-inception(movie);
+inception( movie, "Buffy the Vampire Slayer is a fantastic movie" );
